@@ -6,8 +6,8 @@ public class Dollar {
     Dollar(int amount) {
         this.amount = amount;
     }
-    
-    void times(int multiplayer) {
-        amount *= multiplayer; 
+
+    Dollar times(int multiplayer) {
+        return new Dollar(amount * multiplayer);
     }
 }
