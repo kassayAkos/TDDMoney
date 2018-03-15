@@ -1,7 +1,7 @@
 package Money;
 
 public class Franc {
-    int amount = 10;
+    private int amount;
 
     Franc(int amount) {
         this.amount = amount;
