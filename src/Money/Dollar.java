@@ -7,7 +7,7 @@ public class Dollar {
         this.amount = amount;
     }
     
-    void times(int multiplayer) {
-        amount *= multiplayer; 
+    void times(int multiplier) {
+        amount *= multiplier; 
     }
 }
