@@ -2,11 +2,11 @@ package Money;
 
 public class Franc extends Money {
 
-    Franc(int amount) {
-        this.amount = amount;
+    Franc(int amount, String currency) {
+        super(amount, currency);
     }
 
     Money times(int multiplayer) {
-        return new Franc(amount * multiplayer);
+        return Money.franc(amount * multiplayer);
     }
 }
